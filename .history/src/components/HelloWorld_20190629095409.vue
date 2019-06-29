@@ -1,6 +1,5 @@
 <template>
   <div class="hello">
-    <!-- logo -->
     <van-nav-bar fixed class="index">
       <div slot="left">
         <!-- <span class="title">生态新青</span> -->
@@ -82,7 +81,5 @@ export default {
     top: -60px;
     left: 0;
   }
-  .van-hairline--bottom::after{
-    border-bottom: 0px;
-  }
+  .van-hairline--bottom::after
 </style>

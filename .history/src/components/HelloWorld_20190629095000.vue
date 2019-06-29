@@ -1,6 +1,5 @@
 <template>
   <div class="hello">
-    <!-- logo -->
     <van-nav-bar fixed class="index">
       <div slot="left">
         <!-- <span class="title">生态新青</span> -->
@@ -79,10 +78,7 @@ export default {
   width: 100%;
   }
   .van-swipe{
-    top: -60px;
-    left: 0;
-  }
-  .van-hairline--bottom::after{
-    border-bottom: 0px;
+    top: -40px;
+    left: ;
   }
 </style>

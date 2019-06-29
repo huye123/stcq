@@ -1,6 +1,5 @@
 <template>
   <div class="hello">
-    <!-- logo -->
     <van-nav-bar fixed class="index">
       <div slot="left">
         <!-- <span class="title">生态新青</span> -->
@@ -37,7 +36,7 @@ export default {
        current: 0,
        banner:{
          imgFirst:'../static/image/banner.png',
-         imgSecond:'../static/image/banner.png',
+         imgSecond:'../static/image/jingqubg.png',
 
        }
        
@@ -75,14 +74,5 @@ export default {
      text-align: left;
      padding-left: 20px;
    }
-  .banner img{
-  width: 100%;
-  }
-  .van-swipe{
-    top: -60px;
-    left: 0;
-  }
-  .van-hairline--bottom::after{
-    border-bottom: 0px;
-  }
+
 </style>

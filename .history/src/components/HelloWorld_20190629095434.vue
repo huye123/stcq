@@ -1,6 +1,5 @@
 <template>
   <div class="hello">
-    <!-- logo -->
     <van-nav-bar fixed class="index">
       <div slot="left">
         <!-- <span class="title">生态新青</span> -->

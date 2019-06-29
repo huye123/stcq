@@ -1,6 +1,5 @@
 <template>
   <div class="hello">
-    <!-- logo -->
     <van-nav-bar fixed class="index">
       <div slot="left">
         <!-- <span class="title">生态新青</span> -->
@@ -15,16 +14,15 @@
       </div>
   <!-- <van-icon name="search" slot="right" /> -->
 </van-nav-bar>
-<!-- 轮播 -->
-<van-swipe @change="onChange" class="banner">
+<van-swipe @change="onChange">
   <van-swipe-item><img :src="banner.imgFirst"></van-swipe-item>
   <van-swipe-item><img :src="banner.imgSecond"></van-swipe-item>
-  <!-- <van-swipe-item><img :src="banner.imgThird"></van-swipe-item>
-  <van-swipe-item><img :src="banner.imgFourth"></van-swipe-item> -->
+  <van-swipe-item><img :src="banner.imgThird"></van-swipe-item>
+  <van-swipe-item><img :src="banner.imgFourth"></van-swipe-item>
 
-  <!-- <div class="custom-indicator" slot="indicator">
+  <div class="custom-indicator" slot="indicator">
     {{ current + 1 }}/4
-  </div> -->
+  </div>
 </van-swipe>
   </div>
 </template>
@@ -36,9 +34,7 @@ export default {
     return {
        current: 0,
        banner:{
-         imgFirst:'../static/image/banner.png',
-         imgSecond:'../static/image/banner.png',
-
+         imgFirst:
        }
        
     }
@@ -75,14 +71,5 @@ export default {
      text-align: left;
      padding-left: 20px;
    }
-  .banner img{
-  width: 100%;
-  }
-  .van-swipe{
-    top: -60px;
-    left: 0;
-  }
-  .van-hairline--bottom::after{
-    border-bottom: 0px;
-  }
+
 </style>
